@@ -76,7 +76,7 @@ void Blinky(void const *argument) {
 		osDelay(10);
 	//	HAL_GPIO_WitePin(GPIOD, 12, 0);
 		GPIOD->BSRR |= 1 << 28| 1 << 29 | 1 << 30 | 1 << 31;
-		osDelay(10000);
+		osDelay(1000);
 	}
 }
 osThreadDef(Blinky, osPriorityNormal, 1, 0);
