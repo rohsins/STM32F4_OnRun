@@ -945,7 +945,7 @@
 
 // <e> SPI1 (Serial Peripheral Interface 1) [Driver_SPI1]
 // <i> Configuration settings for Driver_SPI1 in component ::CMSIS Driver:SPI
-#define RTE_SPI1                        0
+#define RTE_SPI1                        1
 
 //   <o> SPI1_MISO Pin <0=>PA6 <1=>PB4
 #define RTE_SPI1_MISO_PORT_ID           0
